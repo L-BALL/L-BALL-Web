@@ -36,6 +36,6 @@ center{
 h1{
     color: transparent;
     background: url(rainbow.gif);
-    background-clip: text;
     -webkit-background-clip: text;
+    background-clip: text;
 }
