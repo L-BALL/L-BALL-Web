@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'ZektonRg-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ZektonRg-Regular'), url('zekton rg.woff') format('woff');
+}
+body{
+    font-family: 'ZektonRg-Regular';
+    background: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+center{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#wrapper.px400{
+    background: linear-gradient(to right,#37b1da 0,#c948cd 50%,#cce335 100%);
+    width: 400px;
+    padding: 1px;
+}
+#inner{
+    padding: 2rem;
+    background: #1a1a1a;
+    color: white;
+}
+.maintext{
+    margin-top: 10px;
+}
+
+h1{
+    color: transparent;
+    background: url(rainbow.gif);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
